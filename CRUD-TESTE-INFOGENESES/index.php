@@ -33,11 +33,11 @@
         <form method="POST" action="login.php">
           <div class="mb-3 mt-3 text-start">
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="<?php  if(isset($_COOKIE['email'])){echo $_COOKIE['email']; }?>">
+            <input type="email" class="form-control" id="email" placeholder="email" name="email" value="<?php  if(isset($_COOKIE['email'])){echo $_COOKIE['email']; }?>">
           </div>
           <div class="mb-3 text-start">
             <label for="pwd">Senha:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pass" value="<?php  if(isset($_COOKIE['password'])){echo $_COOKIE['password']; }?>" autocomplete="on">
+            <input type="password" class="form-control" id="pwd" placeholder="senha" name="pass" value="<?php  if(isset($_COOKIE['password'])){echo $_COOKIE['password']; }?>" autocomplete="on">
           </div>
           <div class="mb-3 form-check d-flex gap-2">
     <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check">

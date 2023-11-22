@@ -13,21 +13,16 @@
 </head>
 
 <body class="bg-content">
-    <main class="dashboard d-flex">
-        <!-- start sidebar -->
+    <main class="dashboard d-flex">    
         <?php 
             include "component/sidebar.php";
         ?>
-        <!-- end sidebar -->
-
-        <!-- start content page -->
+            
         <div class="container-fluid px-4">
         <?php 
             include "component/header.php";
         ?>
           
-        
-            <!-- start student list table -->
             <div class="student-list-header d-flex justify-content-between align-items-center py-2">
                 <div class="title h6 fw-bold">Lista de estudantes</div>
                 <div class="btn-add d-flex gap-3 align-items-center">
@@ -72,10 +67,8 @@
                         <?php endforeach; ?>
                     </tbody>
                 </table>
-            </div>
-            <!-- end student list table -->
+            </div>   
         </div>
-        <!-- end content page -->
     </main>
     <script src="../js/script.js"></script>
     <script src="../js/bootstrap.bundle.js"></script>

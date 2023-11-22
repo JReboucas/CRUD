@@ -14,19 +14,16 @@
 
 <body class="bg-content">
     <main class="dashboard d-flex">
-        <!-- start sidebar -->
         <?php 
             include "component/sidebar.php";
         ?>
-        <!-- end sidebar -->
 
-        <!-- start content page -->
         <div class="container-fluid px-4">
         <?php 
             include "component/header.php";
         ?>
 
-            <!-- start studient list table -->
+            <!-- lista de estudantes -->
             <div class="student-list-header d-flex justify-content-between align-items-center py-2">
                 <div class="title h6 fw-bold">Detalhes de pagamentos</div>
                 <div class="btn-add d-flex gap-3 align-items-center">
@@ -72,10 +69,9 @@
                 </table>
             </div>
             
-            <!-- end student list table -->
+            <!-- fim da lista de estudante -->
 
         </div>
-        <!-- end content page -->
     </main>
     <script src="/js/bootstrap.bundle.js"></script>
     <script src="../js/script.js"></script>
